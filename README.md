@@ -61,9 +61,17 @@ Welcome to my Web Development repository! This repository contains all my projec
 
 ---
 
+### 6. 🅱️ Bootstrap 5 Framework
+* [11.0 Bootstrap Intro](./11.0%20Bootstrap%20Intro) — Introduction to Bootstrap CDN, grid container, and utility classes
+* [11.2 Bootstrap Components](./11.2%20Bootstrap%20Components) — Navbars, cards, carousels, buttons, and SVG icons
+* [11.3 TinDog Project](./11.3%20TinDog%20Project) — Startup landing page built with Bootstrap 5
+
+---
+
 ## 🚀 Technologies Used
 * **HTML5**: Semantic tags, forms, tables, media, accessibility
 * **CSS3**: Flexbox, CSS Grid, animations, variables, responsive media queries
+* **Bootstrap 5**: Grid system, utility classes, and components (Navbars, Cards, Carousels, Buttons)
 * **Git & GitHub**: Version control and project deployment
 
 ---
