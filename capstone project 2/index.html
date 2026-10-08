@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal website of Santhosh, a computer science student building AI-powered projects.">
+  <title>Santhosh | Student Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-header__brand" href="#hero">Santhosh</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav">
+          <li><a class="nav__link" href="#resume">Resume</a></li>
+          <li><a class="nav__link" href="#projects">Projects</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Hero -->
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="hero__greeting">Hi, I'm</p>
+          <h1 class="hero__title" id="hero-title">Santhosh</h1>
+          <p class="hero__summary">
+            I'm a computer science student who builds AI-powered tools that solve
+            real problems, from monitoring public projects to helping rural women
+            start their own businesses.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--solid" href="#projects">See my projects</a>
+            <a class="button button--outline" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <figure class="hero__figure">
+          <img class="hero__photo" src="instadp.jpeg" width="400" height="500"
+               alt="Portrait of Santhosh smiling, wearing a dark shirt">
+        </figure>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section class="section" id="resume" aria-labelledby="resume-title">
+      <div class="container">
+        <h2 class="section__title" id="resume-title">Resume</h2>
+
+        <div class="resume">
+          <div class="resume__block">
+            <h3 class="resume__heading">Education</h3>
+            <ol class="timeline">
+              <li class="timeline__item">
+                <h4 class="timeline__role">B.E. in Computer Science</h4>
+                <p class="timeline__place">Your College Name, affiliated to VTU</p>
+                <p class="timeline__date">2023 to 2027</p>
+                <p class="timeline__text">Coursework in data structures, databases, operating systems and machine learning.</p>
+              </li>
+              <li class="timeline__item">
+                <h4 class="timeline__role">Pre-University Course (Science)</h4>
+                <p class="timeline__place">Your PU College Name, Karnataka</p>
+                <p class="timeline__date">2021 to 2023</p>
+              </li>
+            </ol>
+          </div>
+
+          <div class="resume__block">
+            <h3 class="resume__heading">Experience</h3>
+            <ol class="timeline">
+              <li class="timeline__item">
+                <h4 class="timeline__role">Smart India Hackathon 2026 participant</h4>
+                <p class="timeline__place">Problem statement SIH26102</p>
+                <p class="timeline__text">Built an AI-powered system to monitor MPLAD-funded projects and flag signs of corruption.</p>
+              </li>
+              <li class="timeline__item">
+                <h4 class="timeline__role">Mini project developer</h4>
+                <p class="timeline__place">College project</p>
+                <p class="timeline__text">Designing a voice AI business agent for rural women and self-help group entrepreneurs.</p>
+              </li>
+            </ol>
+          </div>
+
+          <div class="resume__block">
+            <h3 class="resume__heading">Skills</h3>
+            <ul class="skills">
+              <li class="skills__item">Python</li>
+              <li class="skills__item">Data structures and algorithms</li>
+              <li class="skills__item">HTML and CSS</li>
+              <li class="skills__item">Git and GitHub</li>
+              <li class="skills__item">Machine learning basics</li>
+              <li class="skills__item">Problem solving</li>
+            </ul>
+          </div>
+
+          <div class="resume__block">
+            <h3 class="resume__heading">Languages</h3>
+            <ul class="skills">
+              <li class="skills__item">English</li>
+              <li class="skills__item">Kannada</li>
+              <li class="skills__item">Hindi</li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="section__note">
+          <a class="text-link" href="resume.pdf" download>Download my full resume (PDF)</a>
+        </p>
+      </div>
+    </section>
+
+       <!-- Projects -->
+    <section class="section section--light" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 class="section__title" id="projects-title">Projects</h2>
+
+        <div class="projects">
+          <article class="project">
+            <div class="project__body">
+              <h3 class="project__title">MPLAD AI Monitor</h3>
+              <p class="project__text">
+                An AI system that tracks Member of Parliament Local Area Development
+                projects, compares spending with progress, and flags suspicious patterns
+                for review.
+              </p>
+              <p class="project__tools">Python, AI, dashboards</p>
+              <a class="text-link" href="https://github.com/santhosh18-ram">View on GitHub</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__body">
+              <h3 class="project__title">Resume Analyser and Job Recommender</h3>
+              <p class="project__text">
+                Upload a resume and the app reads it, shows matching job posts, and
+                suggests which career domain fits you best.
+              </p>
+              <p class="project__tools">Python, NLP, web app</p>
+              <a class="text-link" href="https://github.com/santhosh18-ram">View on GitHub</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__body">
+              <h3 class="project__title">Voice Business Agent for Rural Women</h3>
+              <p class="project__text">
+                A voice assistant that speaks in the user's language and plans a small
+                business end to end: quantities, costs, pricing, licences and promotion.
+              </p>
+              <p class="project__tools">Voice AI, multilingual, microfinance</p>
+              <a class="text-link" href="https://github.com/santhosh18-ram">View on GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about">
+        <h2 class="section__title" id="about-title">About me</h2>
+        <div class="about__text">
+          <p>
+            I'm a computer science student in Karnataka. I like projects where code
+            helps people who are usually left out of technology, and I choose problems
+            that don't have a good solution yet.
+          </p>
+          <p>
+            Right now I'm strengthening my data structures and algorithms in Python
+            and preparing for placements, while building projects that I can show
+            rather than just describe.
+          </p>
+          <p>When I'm away from the screen, you'll find me on these:</p>
+          <ul class="interests">
+            <li class="interests__item">Reading about AI and how it's used in public services</li>
+            <li class="interests__item">Redesigning my own portfolio, again</li>
+            <li class="interests__item">Hackathons and building with friends</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section section--light" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 class="section__title" id="contact-title">Contact me</h2>
+        <p class="contact__intro">
+          I'm looking for internship and placement opportunities. Send me a message
+          and I'll reply within two days.
+        </p>
+        <address class="contact">
+          <ul class="contact__list">
+            <li><span class="contact__label">Email</span> <a class="text-link" href="mailto:you@example.com">you@example.com</a></li>
+            <li><span class="contact__label">GitHub</span> <a class="text-link" href="https://github.com/santhosh18-ram">github.com/santhosh18-ram</a></li>
+            <li><span class="contact__label">LinkedIn</span> <a class="text-link" href="https://www.linkedin.com/in/your-profile">linkedin.com/in/your-profile</a></li>
+            <li><span class="contact__label">Location</span> Karnataka, India</li>
+          </ul>
+        </address>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>&copy; 2026 Santhosh. Built with HTML and CSS.</p>
+      <a class="text-link" href="#hero">Back to top</a>
+    </div>
+  </footer>
+</body>
+</html>
